@@ -1,0 +1,137 @@
+@media only screen and (min-width: 0px) and (max-width: 480px){
+    .logo{
+        width: 100%;
+    }
+    .login-form{
+        width: 100%;
+    }
+    .login-form input[type="text"],.login-form input[type="password"]{
+        width: 100%;
+        padding: 5px 0px;
+    }
+    .login-form .email,.login-form .pass,.login-form .btn{
+        width: 85%;
+        padding: 0px 14px;
+    }
+    .login-form input[type="submit"]{
+        margin: 4px 0px;
+        width: 30%;
+        padding: 8px;
+        font-size: 17px;
+    }
+    .left-content{
+        width: 100%;
+        padding: 8px;
+    }
+    .left-content img{
+        width: 330px;
+    }
+    .right-content{
+        width: 100%;
+    }
+    .heading {
+        font-size: 18px;
+        padding: 5px;
+    }
+    .name,.surname {
+        display: block;
+    }
+    .name input[type="text"],.surname input[type="text"]{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .text{
+        padding: 5px;
+    }
+    .options select {
+        padding: 8px 22px;
+        margin: 0px 2px;
+    }
+    .btn1 input[type="submit"] {
+        width: 100%;
+       
+    }
+    .additional{
+        padding: 5px;
+    }
+}
+
+/* @media only screen and (min-width: 401px) and (max-width: 480px){
+    .logo{
+        width: 100%;
+    }
+    .login-form{
+        width: 400px;
+    }
+    input[type="submit"]{
+        margin-bottom: 10px;
+        width: 200%;
+        padding: 10px 10px;
+        margin-top: -10px;
+    }
+    .login-form input[type="text"],.login-form input[type="password"]{
+        padding: 5px 0px;
+    }
+    .left-content{
+        width: 100%;
+        padding: 8px;
+    }
+    .left-content img{
+        width: 330px;
+    }
+    .right-content{
+        width: 100%;
+    }
+    .heading {
+        font-size: 18px;
+        padding: 5px;
+    }
+    .name,.surname {
+        display: block;
+    }
+    .name input[type="text"],.surname input[type="text"]{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .text{
+        padding: 5px;
+    }
+    .options select {
+        padding: 8px 22px;
+        margin: 0px 2px;
+    }
+    .btn1 input[type="submit"] {
+        width: 100%;
+       
+    }
+    .additional{
+        padding: 5px;
+    }
+} */
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .login-form{
+        width: 60%;
+        float: right;
+    }
+    .container{
+        box-sizing: border-box;
+        padding-top: 5px;
+    }
+    .left-content{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .left-content img{
+        width: 680px;
+    }
+    .content{
+        position: relative;
+        height: 122vh;
+    }
+    .right-content{
+        position: absolute;
+        top: 29%;
+        left: 22%;
+    }
+}
